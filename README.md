@@ -1,4 +1,4 @@
-# beaconbroadcast
+# beaconbroadcast ![npm](https://badge.fury.io/js/beaconbroadcast.svg)
 React Native Module that broadcasts an iBeacon uuid.
 
 ### Setup
