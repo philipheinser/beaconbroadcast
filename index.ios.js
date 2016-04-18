@@ -4,7 +4,11 @@
  */
 'use strict';
 
-var NativeBeaconBroadcast = require('NativeModules').BeaconBroadcast;
+import React, {
+  NativeModules,
+} from 'react-native';
+
+var NativeBeaconBroadcast = NativeModules.BeaconBroadcast;
 
 /**
  * High-level docs for the BeaconBroadcast iOS API can be written here.
@@ -20,4 +24,4 @@ var BeaconBroadcast = {
   },
 };
 
-module.exports = BeaconBroadcast;
+export default BeaconBroadcast;
