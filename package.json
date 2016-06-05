@@ -1,6 +1,6 @@
 {
   "name": "beaconbroadcast",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Philip Heinser",
   "nativePackage": true,
   "repository": {
